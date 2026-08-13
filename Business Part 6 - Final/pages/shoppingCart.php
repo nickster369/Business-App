@@ -1,26 +1,21 @@
 <?php
-/*shoppingCart.php
-This page provides the "high-level" shopping cart view, if in
-fact the visitor has a shopping cart. Otherwise the visitor is
-redirected to the login page.
-*/
 session_start();
 $customerID = isset($_SESSION['customer_id']) ? $_SESSION['customer_id'] : "";
 
 $productID = $_GET['productID'];
 if ($customerID == "") {
   $_SESSION['purchasePending'] = $productID;
-  header("Location: formLogin.php");
+  header("Location: /pages/formLogin.php");
 }
-include '/home/course/u31/public_html/submissions/test/common/document_head.html';
+include __DIR__ . '/../common/document_head.html';
 ?>
 
 <body class="w3-auto body">
   <header class="w3-black">
     <?php
-    include '/home/course/u31/public_html/submissions/test/common/banner.php';
-    include '/home/course/u31/public_html/submissions/test/common/menus.html';
-    include '/home/course/u31/public_html/submissions/test/scripts/connectToDatabase.php';
+    include __DIR__ . '/../common/banner.php';
+    include __DIR__ . '/../common/menus.html';
+    include __DIR__ . '/../scripts/connectToDatabase.php';
     ?>
   </header>
   <main class="w3-container">
@@ -28,11 +23,11 @@ include '/home/course/u31/public_html/submissions/test/common/document_head.html
       <h4 class="w3-center"><strong>Your Shopping Cart</strong>
       </h4>
       <?php
-      include '/home/course/u31/public_html/submissions/test/scripts/shoppingCartProcess.php';
+      include __DIR__ . '/../scripts/shoppingCartProcess.php';
       ?>
     </article>
   </main>
   <?php
-  include '/home/course/u31/public_html/submissions/test/common/footer.html';
+  include __DIR__ . '/../common/footer.html';
   ?>
 </body>
