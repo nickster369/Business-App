@@ -35,7 +35,7 @@
         }
 
         echo "<h6 id='datetime'>It's " . date("l, F jS");
-        echo "and our time is " . date('g:ia') . ".</h6>";
+        echo " and our time is " . date('g:ia') . ".</h6>";
         if ($loggedIn) {
             echo "<a class='w3-button w3-blue w3-round' href='pages/logout.php'>
 Click here to log out</a>";
@@ -47,8 +47,7 @@ Click here to log in</a>";
         ?>
         <p class="quote w3-left-align ">
             <?php
-            include $_SERVER['CONTEXT_DOCUMENT_ROOT'] .
-                "/submissions/test/scripts/get_quote_from_mongodb.php";
+            include __DIR__ . '/../scripts/get_quote_from_mongodb.php';
             ?>
         </p>
     </div>
