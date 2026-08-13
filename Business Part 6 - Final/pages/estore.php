@@ -1,4 +1,3 @@
-<!--estore.php-->
 <?php
 session_start();
 include __DIR__ . '/../common/document_head.html';
