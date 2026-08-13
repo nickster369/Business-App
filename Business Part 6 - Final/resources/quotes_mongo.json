@@ -1,0 +1,201 @@
+  {
+    "_id": 1,
+    "author": "Albert Einstein",
+    "text": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe",
+    "adjective": "amazing"
+  } {
+    "_id": 2,
+    "author": "Mother Teresa",
+    "text": "Spread love everywhere you go. Let no one ever come to you without leaving happier.",
+    "adjective": "profound"
+  } {
+    "_id": 3,
+    "author": "Franklin D. Roosevelt",
+    "text": "When you reach the end of your rope, tie a knot in it and hang on.",
+    "adjective": "funny"
+  } {
+    "_id": 4,
+    "author": "Margaret Mead",
+    "text": "Always remember that you are absolutely unique. Just like everyone else.",
+    "adjective": "advisory"
+  } {
+    "_id": 5,
+    "author": "Eleanor Roosevelt",
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "adjective": "insightful"
+  } {
+    "_id": 6,
+    "author": "Helen Keller",
+    "text": "The best and most beautiful things in the world cannot be seen or even touched — they must be felt with the heart.",
+    "adjective": "so-true"
+  } {
+    "_id": 7,
+    "author": "Anne Frank",
+    "text": "Whoever is happy will make others happy too.",
+    "adjective": "helpful"
+  } {
+    "_id": 8,
+    "author": "Maya Angelou",
+    "text": "You will face many defeats in life, but never let yourself be defeated.",
+    "adjective": "amused"
+  } {
+    "_id": 9,
+    "author": "Nelson Mandela",
+    "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "adjective": "better"
+  } {
+    "_id": 10,
+    "author": "Helen Keller",
+    "text": "Life is either a daring adventure or nothing at all.",
+    "adjective": "brave"
+  } {
+    "_id": 11,
+    "author": "Dr. Seuss",
+    "text": "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.",
+    "adjective": "calm"
+  } {
+    "_id": 12,
+    "author": "Abraham Lincoln",
+    "text": "The purpose of our lives is to be happy.",
+    "adjective": "charming"
+  } {
+    "_id": 13,
+    "author": "Dalai Lama",
+    "text": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe",
+    "adjective": "amazing"
+  } {
+    "_id": 14,
+    "author": "Mother Teresa",
+    "text": "Life is what happens when you're busy making other plans.",
+    "adjective": "profound"
+  } {
+    "_id": 15,
+    "author": "Stephen King",
+    "text": "Get busy living or get busy dying.",
+    "adjective": "funny"
+  } {
+    "_id": 16,
+    "author": "Mae West",
+    "text": "You only live once, but if you do it right, once is enough.",
+    "adjective": "advisory"
+  } {
+    "_id": 17,
+    "author": "Thomas A. Edison",
+    "text": "Many of life's failures are people who did not realize how close they were to success when they gave up.",
+    "adjective": "insightful"
+  } {
+    "_id": 18,
+    "author": "Albert Einstein",
+    "text": "If you want to live a happy life, tie it to a goal, not to people or things.",
+    "adjective": "so-true"
+  } {
+    "_id": 19,
+    "author": "Babe Ruth",
+    "text": "Never let the fear of striking out keep you from playing the game.",
+    "adjective": "helpful"
+  } {
+    "_id": 20,
+    "author": "Will Smith",
+    "text": "Money and success don't change people; they merely amplify what is already there.",
+    "adjective": "amused"
+  } {
+    "_id": 21,
+    "author": "Steve Jobs",
+    "text": "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking.",
+    "adjective": "better"
+  } {
+    "_id": 22,
+    "author": "Seneca",
+    "text": "Not how long, but how well you have lived is the main thing.",
+    "adjective": "brave"
+  } {
+    "_id": 23,
+    "author": "Eleanor Roosevelt",
+    "text": "The whole secret of a successful life is to find out what is one's destiny to do, and then do it.",
+    "adjective": "calm"
+  } {
+    "_id": 24,
+    "author": "Ernest Hemingway",
+    "text": "In order to write about life first you must live it",
+    "adjective": "charming"
+  } {
+    "_id": 25,
+    "author": "Frank Sinatra",
+    "text": "The big lesson in life, baby, is never be scared of anyone or anything.",
+    "adjective": "amazing"
+  } {
+    "_id": 26,
+    "author": "Various Sources",
+    "text": "Sing like no one's listening, love like you've never been hurt, dance like nobody's watching, and live like it's heaven on earth.",
+    "adjective": "profound"
+  } {
+    "_id": 27,
+    "author": "Leo Burnett",
+    "text": "Curiosity about life in all of its aspects, I think, is still the secret of great creative people",
+    "adjective": "funny"
+  } {
+    "_id": 28,
+    "author": "Soren Kierkegaard",
+    "text": "Life is not a problem to be solved, but a reality to be experienced.",
+    "adjective": "advisory"
+  } {
+    "_id": 29,
+    "author": "Socrates",
+    "text": "The unexamined life is not worth living.",
+    "adjective": "insightful"
+  } {
+    "_id": 30,
+    "author": "Oprah",
+    "text": "Turn your wounds into wisdom.",
+    "adjective": "so-true"
+  } {
+    "_id": 31,
+    "author": "Dolly Parton",
+    "text": "he way I see it, if you want the rainbow, you gotta put up with the rain.",
+    "adjective": "helpful"
+  } {
+    "_id": 32,
+    "author": "Hillary Clinton",
+    "text": "Do all the good you can, for all the people you can, in all the ways you can, as long as you can.",
+    "adjective": "amused"
+  } {
+    "_id": 33,
+    "author": "Ashton Kutcher",
+    "text": "Don't settle for what life gives you; make life better and build something.",
+    "adjective": "better"
+  } {
+    "_id": 34,
+    "author": "Confucius",
+    "text": "Life is really simple, but men insist on making it complicated.",
+    "adjective": "brave"
+  } {
+    "_id": 35,
+    "author": "Kobe Bryant",
+    "text": "Everything negative - pressure, challenges - is all an opportunity for me to rise.",
+    "adjective": "calm"
+  } {
+    "_id": 36,
+    "author": "Lebron James",
+    "text": "I like criticism. It makes you strong.",
+    "adjective": "charming"
+  } {
+    "_id": 37,
+    "author": "George Clooney",
+    "text": "You never really learn much from hearing yourself speak.",
+    "adjective": "amazing"
+  } {
+    "_id": 38,
+    "author": "Celine Dion",
+    "text": "Life imposes things on you that you can't control, but you still have the choice of how you're going to live through this.",
+    "adjective": "profound"
+  } {
+    "_id": 39,
+    "author": "Elton John",
+    "text": "Live for each second without hesitation.",
+    "adjective": "funny"
+  } {
+    "_id": 40,
+    "author": "Albert Einstein",
+    "text": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+    "adjective": "advisory"
+  }
