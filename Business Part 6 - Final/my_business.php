@@ -1,4 +1,3 @@
-<!--my_business.php for Future Vision, version 3 -->
 <?php
 session_start();
 include __DIR__ . '/common/document_head.html';
