@@ -1,4 +1,3 @@
-<!--logout.php-->
 <?php
 session_start();
 $loggedInAtTheStart = isset($_SESSION['customer_id']) ? true : false;
