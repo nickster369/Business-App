@@ -1,14 +1,14 @@
 <!--formRegistration.php-->
 <?php
 session_start();
-include '/home/course/u31/public_html/submissions/test/common/document_head.html';
+include __DIR__ . '/../common/document_head.html';
 ?>
 
 <body class="body w3-auto">
     <header class="w3-black">
         <?php
-        include '/home/course/u31/public_html/submissions/test/common/banner.php';
-        include '/home/course/u31/public_html/submissions/test/common/menus.html';
+        include __DIR__ . '/../common/banner.php';
+        include __DIR__ . '/../common/menus.html';
         ?>
     </header>
     <?php
@@ -23,7 +23,7 @@ include '/home/course/u31/public_html/submissions/test/common/document_head.html
                 (sorry, but only Canadian residents for the moment)
             </h5>
             <p class="error w3-center w3-text-red">Each * denotes a required field.</p>
-            <form id="registrationForm" action="scripts/formRegistrationResponse.php" method="post" autocomplete="on">
+            <form id="registrationForm" action="/scripts/formRegistrationResponse.php" method="post" autocomplete="on">
                 <div class="w3-row w3-section">
                     <div class="w3-quarter w3-container">
                         Salutation:
@@ -236,5 +236,5 @@ include '/home/course/u31/public_html/submissions/test/common/document_head.html
     </main>
 
     <?php
-    include '/home/course/u31/public_html/submissions/test/common/footer.html';
+    include __DIR__ . '/../common/footer.html';
     ?>
