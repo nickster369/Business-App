@@ -1,45 +1,21 @@
-<!--connectToDatabase.php-->
 <?php
+// scripts/connectToDatabase.php
 
+// Fetch database credentials from Render Environment Variables (Cloud Best Practice)
+$db_host = getenv('DB_HOST') ?: 'localhost';
+$db_user = getenv('DB_USER') ?: 'root';
+$db_pass = getenv('DB_PASS') ?: '';
+$db_name = getenv('DB_NAME') ?: 'u31';
 
-include('../../../../htpasswd/mysqldb.inc');
+// Attempt to connect to the database
+$db = @mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 
-if (!isset($dbLocation)) {
-    echo "Database location is missing.<br>
-          Connection script now terminating.";
-    exit(0);
-}
-
-if (!isset($dbUsername)) {
-    echo "Database username is missing.<br>
-          Connection script now terminating.";
-    exit(0);
-}
-
-if (!isset($dbPassword)) {
-    echo "Database password is missing.<br>
-          Connection script now terminating.";
-    exit(0);
-}
-
-if (!isset($dbName)) {
-    echo "Database name is missing.<br>
-          Connection script now terminating.";
-    exit(0);
-}
-
-$db = mysqli_connect(
-    $dbLocation,
-    $dbUsername,
-    $dbPassword,
-    $dbName
-);
-if (mysqli_connect_errno() || ($db == null)) {
-    printf(
-        "Database connection failed: %s<br>
-           Connection script now terminating.",
-        mysqli_connect_error()
-    );
-    exit(0);
+// Clean error handling if the database isn't connected yet
+if (!$db) {
+    echo "<div style='text-align: center; margin: 20px; padding: 20px; border: 2px solid red; background-color: #ffe6e6;'>";
+    echo "<h3>Database Connection Pending</h3>";
+    echo "<p>The MySQL database is currently disconnected or still being configured.</p>";
+    echo "</div>";
+    exit;
 }
 ?>
