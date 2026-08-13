@@ -1,6 +1,6 @@
 <!--banner.php-->
 <div class="w3-border w3-half w3-border-black w3-black ">
-    <img src="images/FutureVisionLogo.png" alt="FutureVisionLogo" style="width: 100%; padding-top:12%;" />
+    <img src="/images/FutureVisionLogo.png" alt="FutureVisionLogo" style="width: 100%; padding-top:12%;" />
 </div>
 <div class="w3-half w3-right-align w3-black">
     <div class="w3-panel">
@@ -37,10 +37,10 @@
         echo "<h6 id='datetime'>It's " . date("l, F jS");
         echo " and our time is " . date('g:ia') . ".</h6>";
         if ($loggedIn) {
-            echo "<a class='w3-button w3-blue w3-round' href='pages/logout.php'>
+            echo "<a class='w3-button w3-blue w3-round' href='/pages/logout.php'>
 Click here to log out</a>";
         } else {
-            echo "<a class='w3-button w3-blue w3-round' href='pages/formLogin.php'>
+            echo "<a class='w3-button w3-blue w3-round' href='/pages/formLogin.php'>
 Click here to log in</a>";
         }
 
@@ -58,7 +58,7 @@ Click here to log in</a>";
 
     function getCurrentTime() {
         request = new XMLHttpRequest();
-        var url = "scripts/time.php";
+        var url = "/scripts/time.php";
         request.open("GET", url, true);
         request.onreadystatechange = updatePage;
         request.send(null);
