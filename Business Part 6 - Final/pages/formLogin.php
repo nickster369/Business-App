@@ -2,17 +2,17 @@
 <?php
 session_start();
 if (isset($_SESSION['customer_id'])) {
-    header('Location: estore.php');
+    header('Location: /pages/estore.php');
 }
 $retrying = isset($_GET['retrying']) ? true : false;
-include '/home/course/u31/public_html/submissions/test/common/document_head.html';
+include __DIR__ . '/../common/document_head.html';
 ?>
 
 <body class="body w3-auto">
     <header class="w3-black">
         <?php
-        include '/home/course/u31/public_html/submissions/test/common/banner.php';
-        include '/home/course/u31/public_html/submissions/test/common/menus.html';
+        include __DIR__ . '/../common/banner.php';
+        include __DIR__ . '/../common/menus.html';
         ?>
     </header>
     <?php
@@ -34,10 +34,10 @@ include '/home/course/u31/public_html/submissions/test/common/document_head.html
                     Purchasing items from our on-line e-store requires logging in.
                     If you have not yet registered with Future Vision,
                     before attempting to log in you must
-                    <a href="pages/formRegistration.php" rel="external" hreflang="en" type="text/html"> register
+                    <a href="/pages/formRegistration.php" rel="external" hreflang="en" type="text/html"> register
                         here</a>.
                 </p>
-                <form id="loginForm" action="scripts/formLoginProcess.php" method="post" autocomplete="on">
+                <form id="loginForm" action="/scripts/formLoginProcess.php" method="post" autocomplete="on">
                     <div class="w3-row w3-section">
                         <div class="w3-quarter w3-container">
                             Login Name:
@@ -75,8 +75,10 @@ include '/home/course/u31/public_html/submissions/test/common/document_head.html
                         </p>
                     <?php } ?>
                 </form>
+            </article>
+        </div>
     </main>
 
     <?php
-    include '/home/course/u31/public_html/submissions/test/common/footer.html';
+    include __DIR__ . '/../common/footer.html';
     ?>
