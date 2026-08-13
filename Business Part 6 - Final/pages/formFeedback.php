@@ -1,14 +1,14 @@
 <!--formFeedback.php-->
 <?php
 session_start();
-include '/home/course/u31/public_html/submissions/test/common/document_head.html';
+include __DIR__ . '/../common/document_head.html';
 ?>
 
 <body class="body w3-auto">
     <header class="w3-black">
         <?php
-        include '/home/course/u31/public_html/submissions/test/common/banner.php';
-        include '/home/course/u31/public_html/submissions/test/common/menus.html';
+        include __DIR__ . '/../common/banner.php';
+        include __DIR__ . '/../common/menus.html';
         ?>
     </header>
     <main class="w3-container w3-border-black w3-light-grey w3-border-top w3-border-bottom">
@@ -18,7 +18,7 @@ include '/home/course/u31/public_html/submissions/test/common/document_head.html
                     Feedback Form...Tell Us What You Think, or Ask Us a Question
                 </h3>
                 <h5 class="w3-center w3-text-red">Each * denotes a required field.</h5>
-                <form id="contactForm" action="scripts/formFeedbackProcess.php" method="post">
+                <form id="contactForm" action="/scripts/formFeedbackProcess.php" method="post">
                     <div class="w3-row">
                         <div class="w3-third w3-container">
                             <label for="salutation">Salutation:<span class="w3-text-red">*</span></label>
@@ -115,5 +115,5 @@ include '/home/course/u31/public_html/submissions/test/common/document_head.html
     </main>
 
     <?php
-    include '/home/course/u31/public_html/submissions/test/common/footer.html';
+    include __DIR__ . '/../common/footer.html';
     ?>
